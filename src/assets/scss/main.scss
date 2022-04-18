@@ -1,0 +1,14 @@
+// @import "./abstracts/variables";
+
+$primary: #0045B7;
+$container-max-widths: (
+  md: 600px
+);
+$list-group-active-bg: transparent;
+$card-spacer-x: .5;
+// $spacer: 1rem;
+// $spacers: (
+//   5: $spacer * 
+// );
+
+@import "~bootstrap/scss/bootstrap";

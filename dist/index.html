@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Design Exercise</title>
+    <link rel="stylesheet" href="/index.4717fcfd.css">
+  </head>
+  <body>
+    <div class="card bg-dark container-md px-0 rounded-0">
+      <ul class="nav nav-tabs gap-2 px-3 pt-2">
+        <li class="nav-link px-4 rounded-0 bg-light active">
+          <a data-toggle="tab" href="#tab-1" class="text-decoration-none text-secondary">Tab 1</a>
+        </li>
+        <li class="nav-link px-4 rounded-0 bg-light">
+          <a data-toggle="tab" href="#tab-2" class="text-decoration-none text-secondary">Tab 2</a>
+        </li>
+        <li class="nav-link px-4 rounded-0 bg-light">
+          <a data-toggle="tab" href="#tab-3" class="text-decoration-none text-secondary">Tab 3</a>
+        </li>
+        <li class="nav-link px-4 rounded-0 bg-secondary disabled">
+          <a data-toggle="tab" href="#menu3" class="text-decoration-none text-white">Disabled</a>
+        </li>
+      </ul>
+      <div class="bg-white tab-content">
+        <div class="card-body pb-0 tab-pane active" id="tab-1">
+          <h5 class="card-title mt-2 ms-4">Card title</h5>
+          <h6 class="card-subtitle mb-4 ms-4 text-muted">Card subtitle</h6>
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item row-md-6 py-3">
+                  <a data-toggle="tab" href="#pic-1" class="text-decoration-none ms-2 text-secondary">An item</a>
+                </li>
+                <li class="list-group-item row-md-6 py-3">
+                  <a data-toggle="tab" href="#pic-2" class="text-decoration-none ms-2 text-secondary">A second item</a>
+                </li>
+                <li class="list-group-item row-md-6 py-3">
+                  <a data-toggle="tab" href="#pic-3" class="text-decoration-none ms-2 text-secondary">A third item</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 tab-content">
+              <div class="tab-pane bg-primary row-sm-12 text-white py-5 text-center active" id="pic-1">
+                <h1 class="display-2">Pic-1</h1>
+              </div>
+              <div class="tab-pane bg-warning row-sm-12 text-dark py-5 text-center" id="pic-2">
+                <h1 class="display-2">Pic-2</h1>
+              </div>
+              <div class="tab-pane bg-dark row-sm-12 text-white py-5 text-center" id="pic-3">
+                <h1 class="display-2">Pic-3</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col tab-pane text-center py-5" id="tab-2">
+          <h3>Loading...</h3>
+          <img src="/6.9af0cbac.gif" alt="loading gif">
+        </div>
+        <div class="card mb-0 tab-pane" id="tab-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="img-fluid rounded-start bg-danger text-white text-center py-5">
+                <h2 class="display-6 py-3">IMAGE</h2>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body ps-4 pe-5">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer ms-4 text-light">2 days ago</div>
+    </div>
+    <script src="/index.e5ac7667.js" defer="">$('#myTabs a').click(function(e) {
+    e.preventDefault();
+    $(this).tab('show');
+});
+
+</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
